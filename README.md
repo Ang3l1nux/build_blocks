@@ -1,13 +1,5 @@
 # terraform
 Repo dedicado a codigos terraform by Angelo Moreira
-
-  
-                              _____                    __                      
-                             |_   _|__ _ __ _ __ __ _ / _| ___  _ __ _ __ ___  
-                               | |/ _ \ '__| '__/ _` | |_ / _ \| '__| '_ ` _ \ 
-                               | |  __/ |  | | | (_| |  _| (_) | |  | | | | | |
-                               |_|\___|_|  |_|  \__,_|_|  \___/|_|  |_| |_| |_|        
-                               
 ----------------------------------------------------------------------------------------------------------------                                                                                     
 
 ![Texto alternativo opcional se a imagem não carregar](https://azure.microsoft.com/images/shared/customers/terraform_l.png?v=a66283855f4ab7430d7ea09b1fbb36a63da2aeece1f2d11cc0b9983207d079b2) 
