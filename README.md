@@ -19,4 +19,4 @@ unzip terraform_0.12.3_linux_amd64.zip\
 cp ou mv terraform /bin\
 terraform
 
-![install](./install.gif) \
+![install](./install.gif)
