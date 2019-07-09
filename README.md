@@ -53,9 +53,9 @@ salve o arquivo
 
 - (1x) VPC com CIDR 10.0.0.0/16 nome = VPC-HOMOLOG
 - (1x) Subnet privada com CIDR 10.0.1.0/24 name = SUB-PRIV1-HOMOLOG (para os servers) 
-- (1x) Subnet privada com CIDR 10.0.2.0/24 name = SUB-PRIV2-HOMOLOG (para redundancia mult az dos servers) 
+- (1x) Subnet privada com CIDR 10.0.2.0/24 name = SUB-PRIV2-HOMOLOG (para mult az dos servers) 
 - (1x) Subnet privada com CIDR 10.0.3.0/24 name = SUB-DB1-HOMOLOG (para o banco de dados) 
-- (1x) Subnet privada com CIDR 10.0.4.0/24 name = SUB-DB2-HOMOLOG (para redundancia mult az do banco de dados) 
+- (1x) Subnet privada com CIDR 10.0.4.0/24 name = SUB-DB2-HOMOLOG (para mult az do banco de dados) 
 - (1x) Servidor com AMI Windows Server 2012 R2 name = WEB-SERVER (para o servidor WEB front) 
 - (1x) Servidor com AMI Windows Server 2012 R2 name = WEB-SERVICE (para os servicos web) 
 - (1x) Servidor com AMI Windows Server 2012 R2 name = WEB-APPLICATION (para as aplicacoes) 
