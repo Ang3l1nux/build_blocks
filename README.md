@@ -19,4 +19,27 @@ unzip terraform_0.12.3_linux_amd64.zip\
 cp ou mv terraform /bin\
 terraform
 
-![install](./install.gif)
+![install](./img/install.gif)
+
+
+----------------------------------------------------------------------------------------------------------------
+2 - [Iniciando o Terraform](#INICIANDO_TERRAFORM)
+
+- mkdir terraform
+- cd terraform
+- touch provider.tf
+- vim provider.tf
+
+colar:
+
+provider "aws" { \
+&nbsp;&nbsp;&nbsp;&nbsp;access_key = "${var.AWS_ACCESS_KEY}" \
+&nbsp;&nbsp;&nbsp;&nbsp;secret_key = "${var.AWS_SECRET_KEY}" \
+&nbsp;&nbsp;&nbsp;&nbsp;region = "${var.AWS_REGION}" \
+} 
+  
+salve o arquivo 
+
+- terraform init 
+
+![init](./img/init.gif)
