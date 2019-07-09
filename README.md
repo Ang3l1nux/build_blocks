@@ -11,7 +11,7 @@ by Angelo Moreira - SP - BRASIL - MAIO 2019 - V1.0
 ----------------------------------------------------------------------------------------------------------------
 ## Passo a passo:
 ----------------------------------------------------------------------------------------------------------------
-1 ----------------- [Instalação em Linux](#INSTALAÇÃO_EM_LINUX)
+1 - [Instalação em Linux](#INSTALAÇÃO_EM_LINUX)
 
 wget https://releases.hashicorp.com/terraform/0.12.3/terraform_0.12.3_linux_amd64.zip \
 ou https://www.terraform.io/downloads.html e efetuar o download\
