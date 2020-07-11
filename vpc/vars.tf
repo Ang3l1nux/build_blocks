@@ -17,7 +17,7 @@ variable "region" {
 /*Zonas de disponibilidade que serão utilizadas para o provisionamento da VPC, será criada 2 subnet por zona de disponibilidade.*/
 variable "azs" {
   default = {
-    "us-east-2" = "us-east-2a,us-east-2c"
+    "us-east-1" = "us-east-1a,us-east-1b"
   }
 }
 
