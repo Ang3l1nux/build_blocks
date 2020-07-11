@@ -11,7 +11,7 @@ variable "env" {
 
 /*Região a ser utilizada para provisionamento da VPC*/
 variable "region" {
-  default = "us-east-2"
+  default = "us-east-1"
 }
 
 /*Zonas de disponibilidade que serão utilizadas para o provisionamento da VPC, será criada 2 subnet por zona de disponibilidade.*/
