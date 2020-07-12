@@ -1,7 +1,7 @@
 
 # Build Blocks
 
-<p> Repo Dedicado aos codigos de Terraform </p>
+<p> Repo Dedicado aos codigos de Terraform: </p>
 
 <img src="./img/blocks.jpg" height="200" width="600">
 
