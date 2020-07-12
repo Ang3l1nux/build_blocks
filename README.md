@@ -1,4 +1,10 @@
-----------------------------------------------------------------------------------------------------------------                
+
+# Build Blocks
+
+<p> Repo Dedicado aos codigos de Terraform </p>
+
+<img src="./img/blocks.jpg" height="200" width="600">
+
 - Website: https://www.terraform.io
 - [![Gitter chat](https://badges.gitter.im/hashicorp-terraform/Lobby.png)](https://gitter.im/hashicorp-terraform/Lobby)
 - Mailing list: [Google Groups](http://groups.google.com/group/terraform-tool)
@@ -48,26 +54,4 @@ salve o arquivo
 ----------------------------------------------------------------------------------------------------------------
 3 - [Projeto](#Projeto)
 
-<img align="left" width="910" height="610" src="./img/projeto.png" />
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-- (1x) VPC com CIDR 10.0.0.0/16 nome = VPC-HOMOLOG
-- (1x) Subnet privada com CIDR 10.0.1.0/24 name = SUB-PRIV1-HOMOLOG (para os servers) 
-- (1x) Subnet privada com CIDR 10.0.2.0/24 name = SUB-PRIV2-HOMOLOG (para mult az dos servers) 
-- (1x) Subnet privada com CIDR 10.0.3.0/24 name = SUB-DB1-HOMOLOG (para o banco de dados) 
-- (1x) Subnet privada com CIDR 10.0.4.0/24 name = SUB-DB2-HOMOLOG (para mult az do banco de dados) 
-- (1x) Servidor com AMI Windows Server 2012 R2 name = WEB-SERVER (para o servidor WEB front) 
-- (1x) Servidor com AMI Windows Server 2012 R2 name = WEB-SERVICE (para os servicos web) 
-- (1x) Servidor com AMI Windows Server 2012 R2 name = WEB-APPLICATION (para as aplicacoes) 
-- (1x) Servidor com AMI Windows Server 2012 R2 name = REPORTING-SERVICE (para o servico de reporting) 
-- (1x) Servidor com AMI Windows Server 2012 R2 name = CLIENT-SERVER (para o servico e testes de client) 
-- (1x) Servidor com AMI Windows Server 2012 R2 name = APP (para as outras aplicacoes) 
-- (1x) Servidor com AMI Windows Server 2012 R2 name = FILE-SERVER (para o servico de arquivos) 
-- (1x) Grupo de autoscalling name = ASG-WEB-SERVER (para a camada de WEB-SERVER) 
-- (1x) Grupo de autoscalling name = ASG-WEB-SERVICE (para a camada de WEB-SERVICE) 
-- (1x) Grupo de autoscalling name = ASG-WEB-APPLICATION (para a camada de WEB-APPLICATION) 
-- (1x) Load Balance application name = LB-WEB-SERVER (para a camada de WEB-SERVER) 
-- (1x) Load Balance application name = LB-WEB-SERVICE (para a camada de WEB-SERVICE) 
-- (1x) Load Balance application name = LB-WEB-APPLICATION (para a camada de WEB-APPLICATION)
-- (1x) RDS mult AZ name = SQL (para o banco de dados SQL) 
 ----------------------------------------------------------------------------------------------------------------
