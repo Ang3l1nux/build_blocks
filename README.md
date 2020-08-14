@@ -55,7 +55,7 @@ salve o arquivo
 3 - [Projeto](#Projeto)
 
 ----------------------------------------------------------------------------------------------------------------
-4 - [CLI](#CLI)
+4 - [CLI](#CLI).  
 TF_LOG=DEBUG OCI_GO_SDK_DEBUG=v terraform plan.  
 TF_LOG=DEBUG terraform apply.  
 Terraform workspace [list, new, select].  
